@@ -1,0 +1,281 @@
+#Background {
+    position: absolute;
+    top: 20%;
+    left: 19%;
+    height: 675px;
+    width: 1200px;
+    opacity: 95%;
+    border-radius: 30px;
+    background-color: black;
+    border-color: rgb(0, 0, 150);
+    border-width: 5px;
+    border-style: solid;
+    box-shadow: 0px 0px 30px 0px black;
+}
+
+#logo {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    height: auto;
+    width: 110px;
+}
+
+#Kasten1 {
+    position: absolute;
+    background-color: rgb(94, 94, 94);
+    top: 22%;
+    left: 26%;
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
+    opacity: 50%;
+}
+
+#Kasten2 {
+    position: absolute;
+    background-color: rgb(94, 94, 94);
+    top: 42%;
+    left: 26%;
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
+    opacity: 50%;
+}
+
+#Kasten3 {
+    position: absolute;
+    background-color: rgb(94, 94, 94);
+    top: 62%;
+    left: 26%;
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
+    opacity: 50%;
+}
+
+#Kasten4 {
+    position: absolute;
+    background-color: rgb(94, 94, 94);
+    top: 26%;
+    left: 59%;
+    height: 100px;
+    width: 400px;
+    border-radius: 30px;
+    opacity: 50%;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#Kasten5 {
+    position: absolute;
+    background-color: rgb(94, 94, 94);
+    top: 46%;
+    left: 59%;
+    height: 100px;
+    width: 400px;
+    border-radius: 30px;
+    opacity: 50%;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#Kasten6 {
+    position: absolute;
+    background-color: rgb(94, 94, 94);
+    top: 66%;
+    left: 59%;
+    height: 100px;
+    width: 400px;
+    border-radius: 30px;
+    opacity: 50%;
+    box-shadow: 0px 0px 15px 0px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#Text1 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0px;
+    top: 25%;
+    left: 21.5%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#Text2 {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(105, 105, 105);
+    line-height: 0px;
+    left: 21.9%;
+    top: 45%;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#Weapon1 {
+    position: absolute;
+    height: auto;
+    width: 300px;
+    top: 24%;
+    left: 28.5%;
+}
+
+#Weapon2 {
+    position: absolute;
+    height: auto;
+    width: 300px;
+    top: 44%;
+    left: 28.5%;
+}
+
+#Weapon3 {
+    position: absolute;
+    height: auto;
+    width: 380px;
+    top: 62%;
+    left: 26.5%;
+}
+
+#Price1 {
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    top: 36%;
+    left: 33%;
+}
+
+#Price2 {
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    top: 56%;
+    left: 33%;
+}
+
+#Price3 {
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    top: 76%;
+    left: 33%;
+}
+
+#Geld1 {
+    position: absolute;
+    height: auto;
+    width: 75px;
+    left: 5%;
+    top: 13%;
+}
+
+#Geld2 {
+    position: absolute;
+    height: auto;
+    width: 75px;
+    left: 5%;
+    top: 13%;
+}
+
+#Geld3 {
+    position: absolute;
+    height: auto;
+    width: 75px;
+    left: 5%;
+    top: 13%;
+}
+
+#TextK4 {
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    top: 25%;
+    left: 38%;
+}
+
+#TextK5 {
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    top: 25%;
+    left: 38%;
+}
+
+#TextK6 {
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    top: 25%;
+    left: 38%;
+}
+
+#CloseButton {
+    position: absolute;
+    top: 21.5%;
+    left: 79%;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px blue;
+    height: 35px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(20, 20, 20)
+}
+
+#WaffenLabel1 {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    top: 22.5%;
+    left: 27%;
+}
+
+#WaffenLabel2 {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    top: 42.5%;
+    left: 27%;
+}
+
+#WaffenLabel3 {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    top: 62.5%;
+    left: 27%;
+}
